@@ -90,15 +90,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
-// Displays button in p-7
+// Displays button in p-3
 document.addEventListener('DOMContentLoaded', function() {
-    var selectField = document.querySelector('.select-container');
-    var buttonContainer = document.querySelector('.button-container-p7');
+    var inputField = document.querySelector('#lastrelationship'); 
+    var buttonContainer = document.querySelector('.button-container-p3'); 
 
-    selectField.addEventListener('change', function() {
-        if (selectField.value !== '' && selectField.value !== 'PLACEHOLDER') {
-            buttonContainer.style.display = 'inline-flex';
+    inputField.addEventListener('input', function() {
+        if (inputField.value.length > 0) {
+            buttonContainer.style.display = 'inline-flex';   
         } else {
             buttonContainer.style.display = 'none';
         }
@@ -158,22 +157,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-
 // Displays button in p-7
 document.addEventListener('DOMContentLoaded', function() {
-    var inputField = document.querySelector('#Year'); 
-    var buttonContainer = document.querySelector('.button-container-p3'); 
+    var selectField = document.querySelector('.select-container');
+    var buttonContainer = document.querySelector('.button-container-p7');
 
-    inputField.addEventListener('input', function() {
-        if (inputField.value.length > 0) {
-            buttonContainer.style.display = 'inline-flex';   
+    selectField.addEventListener('change', function() {
+        if (selectField.value !== '' && selectField.value !== 'PLACEHOLDER') {
+            buttonContainer.style.display = 'inline-flex';
         } else {
             buttonContainer.style.display = 'none';
         }
     });
 });
-
 
 // Hides animation frames in p-8
 window.addEventListener('DOMContentLoaded', function() {

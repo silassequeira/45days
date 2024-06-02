@@ -1,7 +1,3 @@
-@import url("general.css");
-
-/* S:\Web Projects v4\images */
-
 body,
 html {
     font-size: 16px;
@@ -55,19 +51,18 @@ body.back-page .back-page-symbol {
 
 .desktop .main {
     width: 100vw;
-    left: 0;
-    height: 100%;
-    margin-top: 5%;
-    padding-left: 2.5%;
+    height: 100vh; /* Ensure it takes full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin-bottom: 10%;
 }
 
-
-.desktop .p {
-    position: relative;
+.desktop .main .p {
+    position: absolute;
+    top: 10%;
     width: 100%; /* Change width to 100% */
-    height: 3.125vw; /* Convert 48px to 3.125vw */
     font-family: "Metropolis-ExtraBold";
     font-weight: 800;
     color: #000000;
@@ -79,19 +74,26 @@ body.back-page .back-page-symbol {
 }
 
 .desktop .dating-container {
-    position: relative;
-    width: 62.7604%; /* Convert 965px to percentage */
-    height: 41.3462vh; /* Convert 639.29px to vh */
+    width: 62.7604%; 
+    height: 51.3462%; 
     font-family: Helvetica;
     background-image: url("../images/1600x1200v8.png");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%; /* Adjust positioning as needed */
+    border-radius: 35px;
+    background-size: 100%; 
+
 }
 
 .desktop .overlap-group {
     position: relative;
-    width: 49.4792%; /* Convert 768px to percentage */
-    height: 31.791vw; /* Convert 494px to vw */
+    width: 55.4792%; /* Convert 768px to percentage */
+    height: 45.791vw; /* Convert 494px to vw */
     top: 8.6vh; /* Convert 68px to vh */
     left: 8.138%; /* Convert 99px to percentage */
 }
@@ -137,7 +139,8 @@ body.back-page .back-page-symbol {
     background-image: url("../images/1600x1200v8.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer;
+    color: white;
+   /* cursor: pointer;*/
 }
 
 .desktop .heart-vector {
@@ -145,8 +148,9 @@ body.back-page .back-page-symbol {
     width: 3.3482%; /* Convert 51px to percentage */
     height: 2.9531vw; /* Convert 45px to vw */
     top: 0.9375vw; /* Convert 10px to vw */
-    left: 2.0833%; /* Convert 22px to percentage */
+    right: 2.0833%; /* Adjust position to right side */
 }
+
 
 .desktop .api-text-container {
     display: flex;
@@ -187,15 +191,23 @@ body.back-page .back-page-symbol {
     white-space: nowrap;
 }
 
+.api-container img {
+    border-radius: 25px; 
+
+}
+
+.desktop .heart-container {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+    size: 100%;   
+}
 
 
 
 
-
-
-
-
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
+@media only screen and (min-width: 601px) and (max-width: 3200px) {
 
     body {
         display: flex;
@@ -214,13 +226,14 @@ body.back-page .back-page-symbol {
         width: 100%;
         height: 100%;
         overflow: hidden;
-        padding-top: 30%;
+        
     }
 
-    footer {
+  /*  footer {
         display: block;
         height: 20%;
     }
+    */
 
     .footer-container {
         display: flex;
@@ -294,7 +307,7 @@ body.back-page .back-page-symbol {
     }
 
     .desktop .flexcontainer-2 {
-        width: 35.14vw;
+        
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -363,6 +376,20 @@ body.back-page .back-page-symbol {
 
 @media only screen and (max-width: 600px) {
 
+
+
+        .footer-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 30px;
+        position: relative;
+        background-color: #ffffff;
+    }
+
+    
     .main-container-p9,
     .main-container-p7,
     .main-container-p6,
