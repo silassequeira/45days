@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Metropolis;
+    background-color: #efede1;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: static;
+    padding: 2.5% 7%;
+}
+
+h1 {
+    color: #000000;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 5% 0;
+}
+
+.match-selection{
+  margin: 2.5% 2.5%;
+  margin-bottom: 30%;
+  margin-top: 30%;
+  display: flex; /* Add this to enable flex properties */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image-container{
+  position: relative;
+  width: 70vw; /* Move width here from .image-container img */
+}
+
+.image-container img { 
+  position: absolute;
+  width: 100%; /* Change width to 100% to fill .image-container */
+  transform: translate(0, -50%);
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.match, .matchDAVID {
+  position: absolute;
+  width: 25vw; /* Add width and height to these containers */
+  height: 30vw;
+}
+
+.match img {
+  border-radius: 10px;
+  filter: sepia(100%) blur(1.5px) contrast(100%) brightness(80%);
+  position: absolute;
+  transform: translate(78.5%, 0); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+
+.matchDAVID img {
+  border-radius: 10px;
+  filter: sepia(100%) blur(1.5px) contrast(100%) brightness(80%);
+  position: absolute;
+  transform: translate(-94%, 0%); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.match span {
+  text-align: right;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(255 255 255);
+  margin-bottom: 5px;
+  position: absolute;
+  transform: translate(169%, 84%); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 60%; /* Change width to 100% to fill .match and .matchDAVID */
+  height: auto;
+}
+
+.matchDAVID span {
+  text-align: right;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(255 255 255);
+  margin-bottom: 5px;
+  position: absolute;
+  transform: translate(-177%, 84%); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 60%; /* Change width to 100% to fill .match and .matchDAVID */
+  height: auto;
+}
+
+.match b {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(255 255 255);
+  text-align: left;
+  position: absolute;
+  transform: translate(414%, 84.5%); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 40%; /* Change width to 100% to fill .match and .matchDAVID */
+  height: auto;
+} 
+
+
+.matchDAVID b {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(255 255 255);
+  text-align: left;
+  position: absolute;
+  transform: translate(-100%, 84.5%); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 40%; /* Change width to 100% to fill .match and .matchDAVID */
+  height: auto;
+}
+
+.match-arrow{
+  position: absolute;
+
+}
+
+#right-button {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  transform: translate(42vw, 0); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1; /* Add this to center vertically */
+  padding: 10px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+}
+
+
+#left-button {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  transform: translate(-47vw, 0); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 10px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+} 
+
+#submit-button {
+  background-color: #ffffff;
+  text-align: center;
+  border: none;
+  position: absolute;
+  transform: translate(-3vw, 0); /* Reset translate values */
+  scale: 1.0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  height: 25px;
+  width: 80px;
+}
+
+#right-button:hover, #left-button:hover {
+  background-color: #555;
+  color: #ffffff;
+}
+
+  /* Media Queries for Tablet */
+  @media (max-width: 1025px) {
+  
+   
+    #user {
+      display: none; 
+    }
+  }
+  
+  /* Media Queries for Phone */
+  @media (max-width: 768px) {
+   
+    .match img {
+      border-radius: 10px;
+      filter: sepia(100%) blur(1.5px) contrast(100%)  brightness(80%);
+      position: absolute;
+      scale: 1.3;
+      top: 45.5%;
+      left: 20.5%;
+    }
+
+    #cover {
+  width:100%;
+  scale:0;
+    }
+
+    #user {
+      display: none; 
+    }
+   
+  }

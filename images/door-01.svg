@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 527">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a31b11;
+        font-family: Metropolis-Black, Metropolis;
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #98a186;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #4e4027;
+      }
+
+      .cls-4 {
+        fill: #bbbcb1;
+      }
+
+      .cls-5 {
+        fill: #a09a90;
+      }
+
+      .cls-9 {
+        fill: none;
+        stroke-width: 20px;
+      }
+
+      .cls-9, .cls-10 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-11 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-6, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #392a21;
+      }
+
+      .cls-8 {
+        fill: #101a21;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <path class="cls-9" d="M-.09-.08h315.66v527.35H-.09V-.08Z"/>
+  <path class="cls-6" d="M.43,495.07h315.66v24.68H.43v-24.68Z"/>
+  <path class="cls-10" d="M36.31,118.57h238.93v376.48H36.31V118.57Z"/>
+  <path class="cls-3" d="M48.36,132.36h217.59v387.52H48.36V132.36Z"/>
+  <rect class="cls-5" x="63.48" y="152.12" width="188.95" height="367.76"/>
+  <rect class="cls-4" x="75.89" y="164.16" width="163.72" height="352.07"/>
+  <path class="cls-8" d="M115.3,195.89h31.41v31.46h-31.41v-31.46Z"/>
+  <path class="cls-8" d="M169.29,195.89h31.41v31.46h-31.41v-31.46Z"/>
+  <path class="cls-8" d="M115.3,249.42h31.41v31.46h-31.41v-31.46Z"/>
+  <path class="cls-8" d="M169.29,249.42h31.41v31.46h-31.41v-31.46Z"/>
+  <path class="cls-8" d="M115.3,302.96h31.41v31.46h-31.41v-31.46Z"/>
+  <path class="cls-8" d="M169.29,302.96h31.41v31.46h-31.41v-31.46Z"/>
+  <path class="cls-8" d="M211.6,288.03h12.26v59.05h-12.26v-59.05Z"/>
+  <path class="cls-2" d="M215.37,295.34h4.73v43.08h-4.73v-43.08Z"/>
+  <path class="cls-7" d="M75.89,474.76h164.73v40.62H75.89v-40.62Z"/>
+  <text class="cls-1" transform="translate(49.77 59.75)"><tspan x="0" y="0">TRANSFORM</tspan><tspan class="cls-11" x="144.14" y="0">A</tspan><tspan class="cls-12" x="159.13" y="0">TION </tspan><tspan x="72.46" y="26.4">ROOM </tspan></text>
+</svg>

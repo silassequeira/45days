@@ -1,0 +1,509 @@
+@import url("general.css");
+
+/* S:\Web Projects v4\images */
+
+body,
+html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Metropolis, sans-serif;
+    background-color: #efede1;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.desktop .header {
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+
+.desktop .header-container {
+    padding: 30px 6.94vw;
+}
+
+.back-page-symbol {
+    display: none;
+    /* Add any additional styling you want for the symbol here */
+}
+
+body.back-page .back-page-symbol {
+    display: initial;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    float: right;
+}
+
+.desktop .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    font-family: "Metropolis-Black", Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3.125rem;
+    letter-spacing: 0;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.desktop .main {
+    width: 100vw;
+    left: 0;
+    height: 100%;
+    margin-top: 5%;
+    padding-left: 2.5%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+
+.desktop .p {
+    position: relative;
+    width: 100%; /* Change width to 100% */
+    height: 3.125vw; /* Convert 48px to 3.125vw */
+    font-family: "Metropolis-ExtraBold";
+    font-weight: 800;
+    color: #000000;
+    font-size: 4.166vw; /* Convert 64px to 4.166vw */
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .dating-container {
+    position: relative;
+    width: 62.7604%; /* Convert 965px to percentage */
+    height: 41.3462vh; /* Convert 639.29px to vh */
+    font-family: Helvetica;
+    background-image: url("../images/1600x1200v8.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.desktop .overlap-group {
+    position: relative;
+    width: 49.4792%; /* Convert 768px to percentage */
+    height: 31.791vw; /* Convert 494px to vw */
+    top: 8.6vh; /* Convert 68px to vh */
+    left: 8.138%; /* Convert 99px to percentage */
+}
+
+.desktop .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.9167%; /* Convert 44px to percentage */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.desktop .div-2 {
+    position: relative;
+    width: 5.7292%; /* Convert 94px to percentage */
+    height: 3.9394vw; /* Convert 65px to vw */
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.desktop .x-vector {
+    position: absolute;
+    width: 2.0833%; /* Convert 34px to percentage */
+    top: 1.1719vw; /* Convert 9px to vw */
+    left: 2.0833%; /* Convert 30px to percentage */
+    font-family: "Metropolis-ExtraBold";
+    font-weight: 800;
+    color: #000000;
+    font-size: 3.125vw; /* Convert 48px to 3.125vw */
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+
+.desktop .api-container {
+    position: relative;
+    width: 31.7708%; /* Convert 492px to percentage */
+    height: 31.8913vh; /* Convert 494px to vh */
+    background-image: url("../images/1600x1200v8.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.desktop .heart-vector {
+    position: absolute;
+    width: 3.3482%; /* Convert 51px to percentage */
+    height: 2.9531vw; /* Convert 45px to vw */
+    top: 0.9375vw; /* Convert 10px to vw */
+    left: 2.0833%; /* Convert 22px to percentage */
+}
+
+.desktop .api-text-container {
+    display: flex;
+    width: 29.8611%; /* Convert 468px to percentage */
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2.9911%; /* Convert 14px to percentage */
+    position: absolute;
+    top: 33.0899vh; /* Convert 445px to vh */
+    left: 10.4167%; /* Convert 150px to percentage */
+}
+
+.desktop .text-wrapper-2 {
+    position: relative;
+    width: 10.6771%; /* Convert 166px to percentage */
+    height: 1.1364vw; /* Convert 19px to vw */
+    margin-top: -0.1042vw; /* Convert -1px to vw */
+    font-family: "Metropolis-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5625vw; /* Convert 24px to vw */
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+    position: relative;
+    width: 6.7708%; /* Convert 108px to percentage */
+    height: 0.924vw; /* Convert 13px to vw */
+    font-family: "Metropolis-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 1.0417vw; /* Convert 16px to vw */
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding-top: 30%;
+    }
+
+    footer {
+        display: block;
+        height: 20%;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 30px;
+        position: relative;
+        background-color: #ffffff;
+    }
+
+    .desktop .headlinefooter {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .desktop .how-easy-life-is {
+        position: relative;
+        width: fit-content;
+        font-family: "Metropolis-Black", Helvetica, sans-serif;
+        font-weight: 900;
+        color: #000000;
+        font-size: clamp(0.2rem, 0.5500rem + 0.7100vw, 2rem);
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 1;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+
+    .desktop .textfooter-container {
+        display: inline-flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1.74vw;
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .desktop .flexcontainer {
+        width: 27.78vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.69vh;
+    }
+
+    .desktop .text {
+        position: relative;
+        align-self: stretch;
+        font-family: "Metropolis-Bold", Helvetica, sans-serif;
+        font-weight: 400;
+        color: #000000;
+        font-size: clamp(0.5rem, 0.3311rem + 0.5405vw, 1rem);
+        letter-spacing: 0;
+        line-height: 1;
+    }
+
+    .desktop .text-wrapper {
+        font-weight: 700;
+    }
+
+    .desktop .span {
+        font-family: "Metropolis-Medium", Helvetica, sans-serif;
+        font-weight: 500;
+    }
+
+    .desktop .flexcontainer-2 {
+        width: 35.14vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.69vh;
+    }
+
+    .desktop .p {
+        position: relative;
+        align-self: stretch;
+        font-family: "Metropolis-Medium", Helvetica, sans-serif;
+        font-weight: 400;
+        color: #000000;
+        font-size: clamp(0.5rem, 0.3311rem + 0.5405vw, 1rem);
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 1;
+    }
+
+    .desktop .text-wrapper-2 {
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .desktop .text-wrapper-3 {
+        font-family: "Metropolis-Bold", Helvetica, sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .desktop .text-wrapper-4 {
+        font-weight: 500;
+    }
+
+    .desktop .text-wrapper-5 {
+        font-family: "Metropolis-SemiBold", Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .desktop .flexcontainer-3 {
+        width: 20.35vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.69vh;
+    }
+
+    .desktop .span-wrapper {
+        position: relative;
+        align-self: stretch;
+        font-family: "Metropolis-Bold", Helvetica, sans-serif;
+        font-weight: 700;
+        color: #000000;
+        font-size: 1rem;
+        text-align: right;
+        letter-spacing: 0;
+        line-height: 1;
+    }
+
+    .desktop .text-wrapper-6 {
+        font-family: "Metropolis-Bold", Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: clamp(0.5rem, 0.3311rem + 0.5405vw, 1rem);
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main-container-p9,
+    .main-container-p7,
+    .main-container-p6,
+    .main-container-p5,
+    .main-container-p4,
+    .main-container-p3,
+    .main-container-p2,
+    .main-container-p1 {
+        padding-top: 20%;
+        margin-left: 0;
+        width: 100%;
+    }
+
+
+    .main {
+        padding-left: 0%;
+    }
+
+    .desktop .left-container-p7,
+    .desktop .right-container-p6,
+    .desktop .left-container-p5,
+    .desktop .right-container-p4,
+    .vector2-container-p3,
+    .vector-container-p3,
+    .desktop .left-container-p2,
+    .desktop .right-container-p1 {
+        display: none;
+    }
+
+    .desktop .right-container-p7,
+    .desktop .left-container-p6,
+    .desktop .right-container-p5,
+    .desktop .left-container-p4,
+    .desktop .middle-container-p3,
+    .desktop .right-container-p2,
+    .desktop .p-p1,
+    .desktop .left-container-p1 {
+        width: 100%;
+    }
+    
+    .text-container2-p1 {
+        padding-top: 10%;
+    }
+
+
+    .desktop .animal-container .image {
+        width: 40vw;
+        height: 100vh;
+    }
+
+    .desktop .text-wrapper-2-p1 {
+        font-size: clamp(1rem, 1rem + 4vw, 2.5rem);
+    }
+
+    .desktop .text-wrapper-2-p3,
+    .desktop .text-wrapper-2-p4,
+    .text-wrapper-2-p5,
+    .text-wrapper-2-p6,
+    .text-wrapper-2-p7,
+    .text-wrapper-2-p8 {
+        font-size: clamp(1rem, 1rem + 1.8333vw, 1.6875rem);
+        text-align: center;
+    }
+
+
+    .desktop .select-container-p7,
+    .desktop .select-container-p8,
+    .desktop .select-container-p6,
+    .desktop .select-container-p4,
+    .desktop .select-container {
+        padding: 1.2em 0.8em 1.2em 0.8em;
+    }
+
+    .desktop .page-container {
+        width: 100%;
+    }
+
+    .desktop .animal-options {
+        margin-top: 15%;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .desktop .animal-container .image {
+        height: auto;
+    }
+
+    .desktop .button-container-p9 {
+        left: 0;
+    }
+
+    .desktop .left-container-p8 {
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .right-container-p8 {
+        width: 80%;
+        align-self: center;
+        padding-top: 20%;
+
+    }
+
+
+    .desktop .image-container-p8 {
+        width: 80%;
+        height: auto;
+        padding-left: 10%;
+
+    }
+
+    .desktop .image-container-p8 .image {
+        width: inherit;
+        height: auto;
+    }
+
+    .main-container-p8 {
+        display: inline-flex;
+        flex-flow: column;
+    }
+
+    
+}
+
+@keyframes moveAndScale {
+    0% {
+        transform: translateX(200%) scale(0);
+    }
+
+    100% {
+        transform: translateX(0) scale(1.0);
+    }
+}
+
+
+@keyframes leftTOright {
+    0% {
+        transform: translateX(-150vw) scale(0);
+    }
+
+    100% {
+        transform: translateX(0) scale(1.0);
+    }
+}

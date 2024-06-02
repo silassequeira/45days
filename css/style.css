@@ -1,0 +1,452 @@
+body,
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: Metropolis, sans-serif;
+  background-color: #efede1;
+  height: 100%;
+  width: 100%;
+}
+
+.desktop {
+  background-color: #efede1;
+}
+
+footer {
+  height: 20%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.desktop .headlinefooter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .how-easy-life-is {
+  position: relative;
+  width: fit-content;
+  font-family: "Metropolis-Black", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #000000;
+  font-size: clamp(0.5rem, 0.1849rem + 2.0168vw, 2rem);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.desktop .textfooter-container {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1em;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .flexcontainer {
+  width: 27.78vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.desktop .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Metropolis-Bold", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: clamp(0.5rem, 0.3311rem + 0.5405vw, 1rem);
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.desktop .text-wrapper {
+  font-weight: 700;
+}
+
+.desktop .span {
+  font-family: "Metropolis-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.desktop .flexcontainer-2 {
+  width: 35.14vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.desktop .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Metropolis-Medium", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: clamp(0.5rem, 0.3311rem + 0.5405vw, 1rem);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.desktop .text-wrapper-2 {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.desktop .text-wrapper-3 {
+  font-family: "Metropolis-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.desktop .text-wrapper-4 {
+  font-weight: 500;
+}
+
+.desktop .text-wrapper-5 {
+  font-family: "Metropolis-SemiBold", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.desktop .flexcontainer-3 {
+  width: 20.35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.desktop .span-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Metropolis-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 1rem;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.desktop .text-wrapper-6 {
+  font-family: "Metropolis-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: clamp(0.5rem, 0.3311rem + 0.5405vw, 1rem);
+  letter-spacing: 0;
+}
+
+.desktop .main {
+  width: 100vw;
+  left: 0;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-bottom: 36%;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 86.67vw;
+  height: 45vw;
+  left: 6.67vw;
+}
+
+.desktop .rectangle {
+  position: relative;
+  width: 86.6vw;
+  height: auto;
+  margin-left: -0.1vw;
+  margin-right: -0.1vw;
+  object-fit: cover;
+  border-radius: 26px;
+}
+
+
+.desktop .arrow-container {
+  display: flex;
+  width: 73.39vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4.86vw;
+  position: absolute;
+  top: 18.97vw;
+  left: 0.28vw;
+}
+
+.desktop .arrow {
+  position: relative;
+  width: 2.5vw;
+  height: 2.08vh;
+  margin-top: -0.04vh;
+  font-family: "Metropolis-Black", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #000000;
+  font-size: clamp(1.5rem, 0.3176rem + 3.7838vw, 5rem);
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.desktop .text-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  position: absolute;
+  top: 3.27vh;
+  left: 0;
+}
+
+.desktop .text-wrapper-7 {
+  position: relative;
+  width: 86.67vw;
+  height: 3.46vh;
+  margin-top: -0.04vh;
+  font-family: "Metropolis-SemiBold", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: clamp(2rem, 0.6486rem + 4.3243vw, 6rem);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-8 {
+  position: relative;
+  width: 86.67vw;
+  height: 3.57vh;
+  font-family: "Metropolis-Black", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #000000;
+  font-size: clamp(2rem, 0.5642rem + 4.5946vw, 6.25rem);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.desktop .arrow-container {
+  display: flex;
+  width: 73.39vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4.86vw;
+  position: absolute;
+  top: 18.97vw;
+  left: 0.28vw;
+}
+
+.desktop .arrow {
+  position: relative;
+  width: 2.5vw;
+  height: 2.08vh;
+  margin-top: -0.04vh;
+  font-family: "Metropolis-Black", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #000000;
+  font-size: clamp(1.5rem, 0.3176rem + 3.7838vw, 5rem);
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-10 {
+  position: relative;
+  width: 2.57vw;
+  height: 2.08vh;
+  margin-top: -0.04vh;
+  font-family: "Metropolis-Black", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #000000;
+  font-size: clamp(1.5rem, 0.3176rem + 3.7838vw, 5rem);
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  top: 0;
+  width: 91.04vw;
+  height: 45vw;
+  left: 6.74vw;
+}
+
+.desktop .hotelimg-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .hotel {
+  position: relative;
+  width: 86.6vw;
+  height: auto;
+}
+
+.desktop .register-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1em;
+  padding: 0 20.83vw 0 0.69vw;
+  position: absolute;
+  top: 17vw;
+  left: 0;
+}
+
+.desktop .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .companion-container {
+  display: flex;
+  width: 49.86vw;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.04vh;
+  font-family: "Metropolis-Black", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: clamp(0.2rem, 0.2243rem + 1.922vw, 3rem);
+  text-align: center;
+  letter-spacing: -0.8px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.desktop .create-container-wrapper {
+  display: flex;
+  width: 49.86vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+
+.desktop .text-wrapper-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.2em 1.8em;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -0.04vh;
+  font-family: "Metropolis-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: clamp(0.1em, 0.362rem + 0.9811vw, 1.7rem);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+
+.desktop .text-wrapper-12:hover {
+  background-color: #434343;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 35.21vw;
+  height: auto;
+  top: 1.7vh;
+  left: 55.83vw;
+  animation: moveAndScale 1s ease-in-out;
+}
+
+.desktop .header {
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+}
+
+.desktop .header-container {
+  padding: 30px 6.94vw;
+}
+
+.desktop .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: "Metropolis-Black", Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 3.125rem;
+  letter-spacing: 0;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+
+@keyframes moveAndScale {
+  0% {
+    transform: translateX(200%) scale(0);
+  }
+
+  100% {
+    transform: translateX(0) scale(1.0);
+  }
+}
+
+@keyframes Scale {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}

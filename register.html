@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>45 Days - Register</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <div class="desktop">
+
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html" class="text-wrapper-13">45 DAYS</a>
+                <button type="button" class="back-page-symbol">&lt;</button>
+            </div>
+        </header>
+
+        <main class="main">
+            <form>
+                <div id="page1">
+                    <div class="main-container-p1">
+                        <div class="left-container-p1">
+                            <div class="text-container-p1">
+                                <div class="text-wrapper-2-p1">ARE YOU ALONE ?</div>
+                                <p class="p-p1">In this moment do you are you romantically with someone ?</p>
+                            </div>
+                            <div class="text-container2-p1">
+                                <label class="text-wrapper-3-p1">
+                                    <input type="radio" name="ARE YOU ALONE" value="YES">YES
+                                </label><br>
+
+                                <label class="text-wrapper-4-p1">
+                                    <input type="radio" name="ARE YOU ALONE" value="NO">NO
+                                </label><br>
+                            </div>
+                            <button type="button" onclick="showPage(2)" class="button-container-p1">NEXT</button>
+                        </div>
+                        <div class="right-container-p1">
+                            <div class="overlap-group-p1">
+                                <div class="forest-container-p1"></div>
+                                <img class="vector-container-p1" src="images/316x527v3.svg"
+                                    alt="Silhouette of a Man Standing" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page2" style="display: none;">
+                    <div class="main-container-p2">
+                        <div class="left-container-p2">
+                            <div class="overlap-group-p2">
+                                <div class="forest-container-p2"></div>
+                                <img class="vector-container-p2" src="images/316x527v2.svg"
+                                    alt="Silhouette of a Man Walking" />
+                            </div>
+                        </div>
+                        <div class="right-container-p2">
+                            <div class="text-container-p2">
+                                <div class="text-wrapper-2-p1">YOUR NAME </div>
+                                <p class="p-p1">Type your First and Last name in Capital Letters</p>
+                            </div>
+                            <label for="yourname"></label><input type="text" name="yourname" id="yourname" class="input-container-p2" 
+                                    placeholder="Example : DAVID LOBSTER"><br>
+                            <button type="button" onclick="showPage(3)" class="button-container-p2">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page3" style="display: none;">
+                    <div class="main-container-p3">
+                        <img class="vector-container-p3" src="images/316x527v2.svg" alt="Silhouette of a Man Walking" />
+                        <div class="middle-container-p3">
+                            <div class="text-container-p3">
+                                <div class="text-wrapper-2-p3">HOW LONG LASTED YOUR LAST RELATIONSHIP ?</div>
+                                <p class="p-p3">Exactly how many years have you been with someone ? (if not you’ll be
+                                    assined to our emergency plan)</p>
+                            </div>
+                            <label for="lastrelationship"><input type="number"
+                                    class="input-container-p7" id="lastrelationship" name="lastrelationship"
+                                    min="1" max="100"><br></label>
+                            <a href="register.html" class="text-wrapper-3-p7">I have never been in a
+                                relationship</a><br>
+
+                            <button type="button" onclick="showPage(4)" class="button-container-p3">NEXT</button>
+                        </div>
+                        <img class="vector2-container-p3" src="images/316x527v5.svg"
+                            alt="Silhouette of a Man Walking" />
+                    </div>
+                </div>
+
+                <div id="page4" style="display: none;">
+                    <div class="main-container-p4">
+                        <div class="left-container-p4">
+                            <div class="text-container-p4">
+                                <div class="text-wrapper-2-p4">HAVE YOU EVER BEEN ON YOUR OWN BEFORE ?</div>
+                                <p class="p-p4">The most unfortunate people end up alone, but we help you deal with that
+                                </p>
+                            </div>
+                            <select class="select-container-p4" name="HAVE YOU EVER BEEN ON YOUR OWN BEFORE" required>
+                                <option value="PLACEHOLDER">We're you ever not in a relationship...</option>
+                                <option value="NO">No, never</option>
+                                <option value="YES">Yes, when I was a kid</option>
+                                <option value="YESSAD">Yes, very sadly</option>
+                            </select><br>
+                            <button type="button" onclick="showPage(5)" class="button-container-p4">NEXT</button>
+                        </div>
+                        <div class="right-container-p4">
+                            <div class="overlap-group-p4">
+                                <div class="ballroom-container-p4"></div>
+                                <img class="vector-container-p4" src="images/316x527v2.svg"
+                                    alt="Silhouette of a Man Standing" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page5" style="display: none;">
+                    <div class="main-container-p5">
+                        <div class="left-container-p5">
+                            <div class="overlap-group-p5">
+                                <div class="ballroom-container-p5"></div>
+                                <img class="vector-container-p5" src="images/316x527v2.svg"
+                                    alt="Silhouette of a Man Walking" />
+                                <img class="vector2-container-p5" src="images/316x527v5.svg"
+                                    alt="Silhouette of a Man Walking" />
+                            </div>
+                        </div>
+                        <div class="right-container-p5">
+                            <div class="text-container-p5">
+                                <div class="text-wrapper-2-p5">ANY CHILDREN ?</div>
+                                <p class="p-p5">(If not and if you have any problem in your stay with your loved one
+                                    youll
+                                    be
+                                    assined one)</p>
+                            </div>
+                            <div class="text-container2-p5">
+                                <label for="anychildrenYES"></label>
+                                    <input type="radio" name="anychildren" class="text-wrapper-3-p5" id="anychildrenYES" value="YES">YES
+                                    <label for="anychildrenNO"></label>
+                                    <input type="radio" name="anychildren" class="text-wrapper-4-p5" id="anychildrenNO" value="NO">NO
+                            </div>
+
+                            <button type="button" onclick="showPage(6)" class="button-container-p5">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page6" style="display: none;">
+                    <div class="main-container-p6">
+                        <div class="left-container-p6">
+                            <div class="text-container-p6">
+                                <div class="text-wrapper-2-p6">CHARACTERISTIC THAT DEFINES YOU</div>
+                                <p class="p-p6">Something that’s unique in you, or that you like so much that defines
+                                    your
+                                    personality.</p>
+                            </div>
+                            <label for="characteristic"></label>
+                            <input type="text" class="input-container-p6" id="characteristic" name="characteristic" placeholder="Example : I’m short-sighted / I like movies"><br>
+
+                            <button type="button" onclick="showPage(7)" class="button-container-p6">NEXT</button>
+                        </div>
+                        <div class="right-container-p6">
+                            <div class="overlap-group-p6">
+                                <div class="ballroom-container-p6"></div>
+                                <img class="vector-container-p6" src="images/316x527v4.svg"
+                                    alt="Silhouette of a Man Standing" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page7" style="display: none;">
+                    <div class="main-container-p6">
+                        <div class="left-container-p7">
+                            <div class="overlap-group-p7">
+                                <div class="ballroom-container-p7"></div>
+                                <img class="vector-container-p7" src="images/316x527v6.svg"
+                                    alt="Silhouette of a Man Walking" />
+                            </div>
+                        </div>
+                        <div class="right-container-p7">
+                            <div class="text-container-p7">
+                                <div class="text-wrapper-2-p7">WHAT’S YOUR SEXUAL PRERENCE ? </div>
+                                <p class="p-p7">Due to some operational problems some options are not available</p>
+                            </div>
+                            <select class="select-container" name="sexualpreference" id="preferenceSelect"
+                                required>
+                                <option value="PLACEHOLDER">I am looking for...</option>
+                                <option value="MEN">Men</option>
+                                <option value="WOMAN">Woman</option>
+                                <option value="BI" disabled>Woman and Men</option>
+                            </select><br>
+
+                            <button type="button" onclick="showPage(8)" class="button-container-p7">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page8" style="display: none;">
+                    <div class="main-container-p8">
+                        <div class="left-container-p8">
+                            <div class="text-container-p8">
+                                <div class="text-wrapper-2-p8">IF I END UP ALONE I’LL BE ...</div>
+                                <p class="p-p8">Click on the Transformation Room Door and pick the one that suits you
+                                    best.
+                                </p><br>
+                                <p class="p-p8">IMPORTANT NOTE : Just think as an animal you’ll have a second chanve to
+                                    find
+                                    a companion, but even then you should be careful ! You need to choose a companion
+                                    the is
+                                    a similar type of animal to you.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="right-container-p8">
+
+                            <div class="image-container-p8" id="image-animation">
+                                <img src="images/door-01.svg" alt="door1" width="516" height="727" class="image"
+                                    onclick="startAnimation()">
+                                <img src="images/door-02.svg" alt="Transformation-room-door2" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-03.svg" alt="Transformation-room-door3" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-04.svg" alt="Transformation-room-door4" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-05.svg" alt="Transformation-room-door5" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-06.svg" alt="Transformation-room-door6" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-07.svg" alt="Transformation-room-door7" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-08.svg" alt="Transformation-room-door8" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-09.svg" alt="Transformation-room-door9" width="516" height="727"
+                                    class="image">
+                                <img src="images/door-10.svg" alt="Transformation-room-door10" width="516" height="727"
+                                    class="image" onclick="showPage(9)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page9" style="display: none;">
+                    <div class="main-container-p9">
+                        <div class="section-container">
+                            <div class="text-wrapper-2-p9">Choose Your Animal</div>
+                            <p class="p-p9">What animal would you like to be if you end up alone?</p><br>
+                        </div>
+
+                        <div class="page-container">
+                            <button id="prevButton">&lt;</button>
+                            <div class="animal-options">
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal1.svg" alt="Lobster" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Lobster" class="animal-name"
+                                            value="lobster">
+                                        Lobster
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal5.svg" alt="Wolf" width="316" height="527" class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Wolf" class="animal-name" value="wolf">
+                                        Wolf
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal3.svg" alt="Penguin" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Penguin" class="animal-name"
+                                            value="penguin">
+                                        Penguin
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal4.svg" alt="Camel" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Camel" class="animal-name" value="camel">
+                                        Camel
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal2.svg" alt="Hippopotamus" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Hippopotamus" class="animal-name"
+                                            value="hippopotamus"> Hippopotamus
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal8.svg" alt="Dog" width="316" height="527" class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Dog" class="animal-name" value="dog"> Dog
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal12.svg" alt="Peacock" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Peacock" class="animal-name"
+                                            value="peacock">
+                                        Peacock
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal14.svg" alt="Pig" width="316" height="527" class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Pig" class="animal-name" value="pig"> Pig
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal6.svg" alt="Bunny" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Bunny" class="animal-name" value="bunny">
+                                        Bunny
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal13.svg" alt="Pidgeon" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Pidgeon" class="animal-name"
+                                            value="pidgeon">
+                                        Pidgeon
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal7.svg" alt="Cat" width="316" height="527" class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Cat" class="animal-name" value="cat"> Cat
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal10.svg" alt="Horse" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Horse" class="animal-name" value="horse">
+                                        Horse
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal11.svg" alt="Parrot" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Parrot" class="animal-name"
+                                            value="parrot">
+                                        Parrot
+                                    </label>
+                                </div>
+
+                                <div class="animal-container">
+                                    <div class="image-container">
+                                        <img src="images/animal9.svg" alt="Donkey" width="316" height="527"
+                                            class="image">
+                                    </div>
+                                    <label>
+                                        <input type="radio" name="animal" id="Donkey" class="animal-name"
+                                            value="donkey">
+                                        Donkey
+                                    </label>
+                                </div>
+                            </div>
+                            <button id="nextButton">&gt;</button>
+                        </div>
+                        <button type="submit" class="button-container-p9" onclick="myONClickFN">SUBMIT</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="headlinefooter">
+                    <p class="how-easy-life-is"> How easy life is when there's two of something rather than one </p>
+                </div>
+                <div class="textfooter-container">
+                    <div class="flexcontainer">
+                        <p class="text">
+                            <span class="text-wrapper">Universidade de Coimbra <br />
+                            </span>
+                        </p>
+                        <p class="text">
+                            <span class="text-wrapper">Licenciatura em Design e Multimédia 2024 <br />
+                            </span>
+                        </p>
+                        <p class="text">
+                            <span class="span">Docente: Jõao Miguel Cunha <br />
+                            </span>
+                        </p>
+                        <p class="text">
+                            <span class="span">Comunicação Multimédia <br />
+                            </span>
+                        </p>
+                        <p class="text">
+                            <span class="span">Bruna Gomes, Silas Sequeira, Sara Amaral, Laura Caetano</span>
+                        </p>
+                    </div>
+                    <div class="flexcontainer-2">
+                        <p class="p">
+                            <span class="text-wrapper-2">Website based on the movie</span>
+                            <span class="text-wrapper-3">The Lobster of Yorgos Lanthimos <br />
+                            </span>
+                        </p>
+                        <p class="p">
+                            <span class="text-wrapper-2">Stars - Colin Farrell Rachel Weisz Jessica Barden <br />
+                            </span>
+                        </p>
+                        <p class="p">
+                            <span class="text-wrapper-2">IMDb:</span>
+                            <a href="https://www.imdb.com/title/tt3464902/" target="_blank" rel="noopener noreferrer">
+                                <span class="text-wrapper-4">The Lobster <br />
+                                </span>
+                            </a>
+                        </p>
+                        <p class="p">
+                            <span class="text-wrapper-5">The Hotel where the movie took place: <br />
+                            </span>
+                        </p>
+                        <p class="p">
+                            <a href="https://parknasillaresort.com/blog/the-lobster" target="_blank"
+                                rel="noopener noreferrer">
+                                <span class="text-wrapper-4">Parknasilla Resort & Spa in Sneem, Co. Kerry</span>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="flexcontainer-3">
+                        <p class="span-wrapper">
+                            <a href="aboutHOTEL.html" class="text-wrapper-6">About the Hotel <br />
+                            </a>
+                        </p>
+                        <p class="span-wrapper">
+                            <a href="register.html" class="text-wrapper-6">Register </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="javascript/register.js"></script>
+</body>
+
+</html>

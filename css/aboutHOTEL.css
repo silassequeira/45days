@@ -1,0 +1,174 @@
+/* Reset CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Metropolis;
+  background-color: #efede1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  padding: 2.5% 7%;
+}
+
+header h1 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#login {
+  color: #000000;
+  font-size: 35px;
+  text-decoration: none;
+  float: right;
+}
+
+#login:hover {
+  color: #555;
+}
+
+/* Main Content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 2vw;
+  padding: 2vw;
+}
+
+#back-button {
+  background-color: #ffffff;
+  border: none;
+  padding: 1vw 2vw;
+  border-radius: 5%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#back-button:hover {
+  background-color: #555;
+  color: #ffffff;
+}
+
+.whattodo {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2vw;
+}
+
+.content-introduction {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 7.5vw;
+}
+
+.content-introduction h2 {
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.content-introduction p {
+  font-size: 1.1vw;
+  width: 80%;
+  align-self: center;
+}
+
+.content-introduction img { 
+  width: 80%;
+  height: auto;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.content-section {
+  width: 100%;
+  padding: 0 2vw;
+  margin-bottom: 7.5vw;
+}
+
+.content-section h2 {
+  font-size: 2.5vw;
+}
+
+.content-section p,
+.content-conclusion p {
+  font-size: 0.9vw;
+  line-height: 1.3;
+  width: 80%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.image {
+  width: 80%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.content-conclusion {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 3vw;
+  margin-top: 7.5vw;
+}
+
+.content-conclusion h2 {
+  font-size: 2.5vw;
+}
+
+.content-conclusion p {
+  font-size: 1.5vw;
+  align-self: center;
+}
+
+.content-conclusion img {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.image-wrapper {
+  width: 69%; /* Adjust width as needed */
+  float: right;
+  margin-right: 20px;
+  align-self: flex-start; /* Adjust margin as needed */
+}
+
+.text-wrapper {
+  width: 29%; /* Adjust width as needed */
+  float: left;
+}
+
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 8vw;
+  }
+
+  .content-section {
+    width: calc(100% - 4em);
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 6vw;
+  }
+
+  .content-section {
+    width: calc(50% - 3em);
+  }
+
+}

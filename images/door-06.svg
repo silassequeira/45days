@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_11" data-name="Layer 11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 527">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a31b11;
+        font-family: Metropolis-Black, Metropolis;
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #98a186;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #4e4027;
+      }
+
+      .cls-4 {
+        fill: #bbbcb1;
+      }
+
+      .cls-6 {
+        fill: #a09a90;
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke-width: 20px;
+      }
+
+      .cls-11, .cls-12 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-13 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-7, .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        fill: #392a21;
+      }
+
+      .cls-9 {
+        fill: #101a21;
+      }
+
+      .cls-10 {
+        opacity: .5;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <path class="cls-11" d="M-2.32-.17h315.66v527.35H-2.32V-.17Z"/>
+  <path class="cls-7" d="M-1.8,494.97h315.66v24.68H-1.8v-24.68Z"/>
+  <path class="cls-12" d="M34.08,118.48h238.93v376.48H34.08V118.48Z"/>
+  <path class="cls-3" d="M46.13,132.26h217.59v387.52H46.13V132.26Z"/>
+  <rect class="cls-5" x="61.25" y="152.02" width="188.95" height="367.76"/>
+  <g>
+    <rect class="cls-6" x="61.25" y="152.02" width="105.6" height="367.76"/>
+    <rect class="cls-4" x="68.19" y="164.07" width="91.5" height="352.07"/>
+    <path class="cls-9" d="M90.21,195.79h17.55v31.46h-17.55v-31.46Z"/>
+    <path class="cls-9" d="M120.38,195.79h17.55v31.46h-17.55v-31.46Z"/>
+    <path class="cls-9" d="M90.21,249.33h17.55v31.46h-17.55v-31.46Z"/>
+    <path class="cls-9" d="M120.38,249.33h17.55v31.46h-17.55v-31.46Z"/>
+    <path class="cls-9" d="M90.21,302.86h17.55v31.46h-17.55v-31.46Z"/>
+    <path class="cls-9" d="M120.38,302.86h17.55v31.46h-17.55v-31.46Z"/>
+    <path class="cls-9" d="M144.03,287.94h6.85v59.05h-6.85v-59.05Z"/>
+    <path class="cls-2" d="M146.14,295.25h2.64v43.08h-2.64v-43.08Z"/>
+    <path class="cls-8" d="M68.19,474.66h92.06v40.62h-92.06v-40.62Z"/>
+  </g>
+  <text class="cls-1" transform="translate(47.54 59.66)"><tspan x="0" y="0">TRANSFORM</tspan><tspan class="cls-13" x="144.14" y="0">A</tspan><tspan class="cls-14" x="159.13" y="0">TION </tspan><tspan x="72.46" y="26.4">ROOM </tspan></text>
+  <rect class="cls-10" x="61.04" y="150.44" width="188.95" height="367.76"/>
+</svg>

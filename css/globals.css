@@ -1,0 +1,38 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Metropolis-Black";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c4a53d12252b500095f02a1/Metropolis-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c4a53d12252b500095f02a1/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/5ada2ec1582b90000d6ddd6d/Metropolis-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis-SemiBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c431787efde550009817c07/Metropolis-SemiBold.otf") format("opentype");
+}

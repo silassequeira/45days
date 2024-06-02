@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="vp" content="width=device-width, initial-scale=1.0">
+    <title>45 Days - Match</title>
+    <link rel="icon" type="image/x-icon" href="images/lobster.svg">
+    <link href="css/match.css" rel="stylesheet" type="text/css">
+    <link href="css/general.css" rel="stylesheet" type="text/css">
+  <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+  <script>
+    window.onload = function() {
+        if (screen.width < 600) {
+            var mvp = document.getElementById('vp');
+            mvp.setAttribute('content','width=600');
+        }
+    }
+    </script>
+
+</head>
+<body>
+<header>
+    <h1><a href="index.html">45 DAYS</a></h1>
+</header>
+
+<main>
+  <div class="match-selection">
+
+    <div class="image-container">
+      <img src="images/1600x1200v3.png"  id="cover" alt="ballroom" class="image">
+    </div>
+     
+    <div class="matchDAVID" id="user">
+                <img src="images/350x350v14.png" alt="david" style=" width: 30vw; height: auto ;" class="image">
+                <span>David</span>
+                <div class="match-details">
+                  <b>Short-Sighted</b>
+                </div>
+            </div>
+
+       <div class="match" id="girl-match">
+                <!-- Random user data will be displayed here -->
+            </div>
+
+      <div class="match-arrow">
+          <a href= "#" id="left-button"><b> < </b></a>
+      </div>
+
+    <div class="match-arrow">
+        <a href="#" id="right-button"><b> > </b></a>
+    </div> 
+
+    <div class="match-arrow">
+      <a href="foundmatch.html" id="submit-button"><b> Submit </b></a>
+  </div> 
+
+  </div>
+</main>
+
+<footer>
+    <div>
+      <h4 class="centered_phrase"><b>"How easy life is when there's two of something rather than one"</b></h4>
+    </div>
+    <div class="other_content">
+    <div class="footer_item">
+      <h4>Universidade de Coimbra </h4>
+      <h4>Licenciatura em Design e Multimédia 2024</h4>
+      <p> Docente: Jõao Miguel Cunha </p>
+      <p>Comunicação Multimédia</p>
+      <p> Bruna Gomes, Silas Sequeira, Sara Amaral, Laura Caetano</p>
+    </div>
+    <div class="footer_item">
+      <h4>Website based on the movie "The Lobster" of Yorgos Lanthimos</h4>
+      <h4>Stars - Colin Farrell Rachel Weisz Jessica Barden</h4>
+      <p>IMDb: <a href="https://www.imdb.com/title/tt3464902/">The Lobster</a></p>
+      <p>The Hotel where the movie took place:</p>
+      <p><a href="https://parknasillaresort.com/blog/the-lobster">Parknasilla Resort & Spa in Sneem, Co. Kerry</a></p>
+    </div>
+    <div class="footer_item">
+      <h5><a href="aboutHOTEL.html">About the Hotel</a></h5>
+      <h5><a href="booking.html">Booking</a></h5>
+      <h5><a href="login.html">Login</a></h5>
+      <h5><a href="profile.html">Profile</a></h5>
+      <h5><a href="match.html">Match</a></h5>
+      <h5><a href="foundmatch.html">Match Found</a></h5>
+      <h5><a href="finishedbooking.html">Booking Finished</a></h5>
+    </div>
+    </div>
+  </footer>
+
+<script>
+    function fetchRandomUser() {
+        fetch('https://randomuser.me/api/?gender=female')
+            .then(response => response.json())
+            .then(data => {
+                const user = data.results[0];
+                const gender = user.gender.female;
+                const fullName = `${user.name.first} ${user.name.last}`;
+                const picture = user.picture.large;
+                const nat = user.nat.us;
+
+
+                document.getElementById('girl-match').innerHTML = `
+                        <img src="${picture}" alt="Girl" class="image" style="width: 30vw; height: auto ;">
+                        <span>${fullName}</span>
+                        <div class="match-details">
+                          <b>Short-Sighted</b>
+                        </div>
+                    `;
+            })
+            .catch(error => console.error('Error fetching random user:', error));
+    }
+
+
+    function calculateAge(birthDate) {
+        const today = new Date();
+        const diff = today - birthDate;
+        const ageDate = new Date(diff);
+        return Math.abs(ageDate.getUTCFullYear() - 1970);
+    }
+
+
+    fetchRandomUser();
+
+
+    document.getElementById('right-button').addEventListener('click', function(event) {
+        event.preventDefault();
+        fetchRandomUser();
+    });
+
+    document.getElementById('left-button').addEventListener('click', function(event) {
+        event.preventDefault();
+        fetchRandomUser();
+    });
+</script>
+</body>
+</html>

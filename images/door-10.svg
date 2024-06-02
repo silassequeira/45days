@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_11" data-name="Layer 11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 527">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .9;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-10 {
+        fill: #a31b11;
+        font-family: Metropolis-Black, Metropolis;
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #98a186;
+      }
+
+      .cls-3 {
+        fill: #4e4027;
+      }
+
+      .cls-4 {
+        fill: #bbbcb1;
+      }
+
+      .cls-6 {
+        fill: #a09a90;
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke-width: 20px;
+      }
+
+      .cls-11, .cls-12 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-13 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-7, .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        fill: #392a21;
+      }
+
+      .cls-9 {
+        fill: #101a21;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <path class="cls-11" d="M.17-.17h315.66v527.35H.17V-.17Z"/>
+  <path class="cls-7" d="M.68,494.97h315.66v24.68H.68v-24.68Z"/>
+  <path class="cls-12" d="M36.56,118.48h238.93v376.48H36.56V118.48Z"/>
+  <path class="cls-3" d="M48.61,132.26h217.59v387.52H48.61V132.26Z"/>
+  <rect class="cls-5" x="63.73" y="152.02" width="188.95" height="367.76"/>
+  <text class="cls-10" transform="translate(50.03 59.66)"><tspan x="0" y="0">TRANSFORM</tspan><tspan class="cls-13" x="144.14" y="0">A</tspan><tspan class="cls-14" x="159.13" y="0">TION </tspan><tspan x="72.46" y="26.4">ROOM </tspan></text>
+  <g>
+    <rect class="cls-6" x="64.4" y="152.02" width="13.39" height="367.76"/>
+    <rect class="cls-4" x="65.28" y="164.07" width="11.6" height="352.07"/>
+    <path class="cls-9" d="M68.08,195.79h2.23v31.46h-2.23v-31.46Z"/>
+    <path class="cls-9" d="M71.9,195.79h2.23v31.46h-2.23v-31.46Z"/>
+    <path class="cls-9" d="M68.08,249.33h2.23v31.46h-2.23v-31.46Z"/>
+    <path class="cls-9" d="M71.9,249.33h2.23v31.46h-2.23v-31.46Z"/>
+    <path class="cls-9" d="M68.08,302.86h2.23v31.46h-2.23v-31.46Z"/>
+    <path class="cls-9" d="M71.9,302.86h2.23v31.46h-2.23v-31.46Z"/>
+    <path class="cls-9" d="M74.9,287.94h.87v59.05h-.87v-59.05Z"/>
+    <path class="cls-2" d="M75.17,295.25h.33v43.08h-.33v-43.08Z"/>
+    <path class="cls-8" d="M65.28,474.66h11.67v40.62h-11.67v-40.62Z"/>
+  </g>
+  <rect class="cls-1" x="64.04" y="150.62" width="188.95" height="367.76"/>
+</svg>
